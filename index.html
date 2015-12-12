@@ -4,23 +4,31 @@
         <meta charset="utf-8" />
         <title>CSS3 Christmas Tree with Snow | Script Tutorials</title>
         <link href="css/layout.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="js/funciones.js"></script>
     </head>
     <body>
         <header>
-            
+            <div>
+                <audio controls>
+                    <source src="data/tamborilero.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio></div>
         </header>
+
+
         <div class="container">
             <div class="bottom_snow"></div>
             <div class="tree"></div>
             <div class="tree_bot"></div>
             <div class="ball red"></div>
             <div class="ball green"></div>
-            <div class="ball blue"></div>
+            <div id="musica" class="ball blue"></div>
             <div class="ball red rsmall"></div>
             <div class="ball green gsmall"></div>
             <div class="ball blue bsmall"></div>
             <h1 class="luz" id="blink">Feliz Navidad</h1>
+            
             <div class="gorro"><img src="images/gorro.png"></div>
 
             <div class="fall_snow"></div>
